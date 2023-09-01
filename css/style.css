@@ -63,12 +63,12 @@ a {
 
 .carousel-caption h2 {
     letter-spacing: 10px;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 700;
 }
 
 .carousel-indicators {
-    top: 60%;
+    top: 80%;
 }
 
 .carousel-indicators button {
@@ -77,15 +77,35 @@ a {
     border-radius: 50%;
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (min-width:576px) and (max-width:992px) {
+    .carousel-caption {
+        top: 25%;
+    }
+
+    .carousel-caption h2 {
+        letter-spacing: 0;
+    }
+}
+
+@media only screen and (max-width:576px) {
     .carousel-caption h2 {
         letter-spacing: 1px;
-        font-size: 35px;
+        font-size: 25px;
         font-weight: 500;
     }
 
     .carousel-caption {
-        top: 3%;
+        top: 20%;
+    }
+
+    .carousel-indicators {
+        top: 65%;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .carousel-caption {
+        top: 0%;
     }
 }
 
