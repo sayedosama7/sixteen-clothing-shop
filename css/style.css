@@ -1,0 +1,203 @@
+/* start global  */
+* {
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+
+.text-danger {
+    color: #f33f3f !important;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none !important;
+
+}
+
+/* End global  */
+
+/* start navbar  */
+.navbar {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+}
+
+.navbar-brand h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.nav-item a {
+    transition: all .1s ease;
+    font-size: 20px;
+}
+
+.nav-item a:hover {
+    border-bottom: 3px solid #f33f3f;
+    width: fit-content;
+}
+
+@media only screen and (max-width:992px) {
+    .navbar {
+        position: relative;
+    }
+
+    .navbar-brand h2 {
+        font-size: 25px;
+    }
+}
+
+/* End navbar  */
+
+/* start carousel  */
+.carousel-caption {
+    top: 40%;
+}
+
+.carousel-caption h2 {
+    letter-spacing: 10px;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.carousel-indicators {
+    top: 60%;
+}
+
+.carousel-indicators button {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width:768px) {
+    .carousel-caption h2 {
+        letter-spacing: 1px;
+        font-size: 35px;
+        font-weight: 500;
+    }
+
+    .carousel-caption {
+        top: 3%;
+    }
+}
+
+/* End carousel  */
+
+/* start products section  */
+.products {
+    margin: 100px auto;
+}
+
+.product-title h4 {
+    letter-spacing: 2px;
+}
+
+.card-body a {
+    color: #1a6692;
+}
+
+.review .stars {
+    color: #f33f3f;
+    font-size: 14px;
+}
+
+.review p {
+    color: #f33f3f;
+}
+
+@media only screen and (max-width:992px) {
+    .products {
+        margin: 50px auto;
+    }
+
+    .product-title h4 {
+        letter-spacing: 0px;
+    }
+
+}
+
+/* End products section  */
+
+/* start about section  */
+.about p {
+    margin-bottom: 5px;
+    position: relative;
+    margin-left: 13px;
+}
+
+
+.about p a {
+    color: rgba(0, 0, 0, 0.788);
+}
+
+.about p a:hover {
+    color: #f33f3f;
+}
+
+.about p::before {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    background-color: rgba(0, 0, 0, 0.747);
+    top: 10px;
+    left: -13px;
+}
+
+.about h6 {
+    line-height: 2;
+}
+
+.about h5 {
+    color: #1a6692;
+}
+
+.about h6 span a:hover {
+    color: #f33f3f;
+}
+
+@media only screen and (max-width:768px) {
+    .about hr {
+        margin-bottom: 20px !important;
+    }
+
+    .about img {
+        margin-top: 20px !important;
+    }
+}
+
+/* End about section  */
+
+/* start unique section  */
+.unique {
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+.unique h5 {
+    color: #1a6692;
+}
+
+@media only screen and (max-width:768px) {
+    .unique-btn {
+        text-align: left !important;
+    }
+
+}
+
+/* End unique section  */
+
+/* start copyright */
+.copyright p span a:hover {
+    color: #1a6692 !important;
+}
+
+/* End copyright */

@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/client-01.png" type="image/x-icon">
+    <!-- wow  -->
+    <link rel="stylesheet" href="./css/wow/animate.css">
+    <!-- animate-css  -->
+    <link rel="stylesheet" href="./css/animate.min.css">
+    <!-- fontawesome  -->
+    <link rel="stylesheet" href="./css/fontawesome.css">
+    <!-- bootstrap-css  -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- mdb css  -->
+    <link rel="stylesheet" href="./css/mdb.min.css">
+    <!-- link-css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Sixteen Clothing Shop</title>
+</head>
+
+<body>
+
+    <!--start Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <!-- Container wrapper -->
+        <div class="container">
+            <!-- Navbar brand -->
+            <a class="navbar-brand mt-2 mt-lg-0 text-light p-2" href="#">
+                <h2>sixteen <span class="text-danger">clothing</span></h2>
+            </a>
+            <!-- Toggle button -->
+            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <!-- Left links -->
+                <ul class="navbar-nav ml-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item mr-4">
+                        <a class="nav-link text-light" href="#">home</a>
+                    </li>
+                    <li class="nav-item mr-4">
+                        <a class="nav-link text-light" href="#">our products</a>
+                    </li>
+                    <li class="nav-item mr-4">
+                        <a class="nav-link text-light" href="#">about us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">contact us</a>
+                    </li>
+                </ul>
+                <!-- Left links -->
+            </div>
+            <!-- Collapsible wrapper -->
+        </div>
+        <!-- Container wrapper -->
+    </nav>
+    <!--End Navbar -->
+
+    <!--start Carousel -->
+    <div id="carouselBasicExample" class="carousel slide carousel-fade" data-mdb-ride="carousel">
+        <!-- Indicators -->
+        <div class="carousel-indicators ">
+            <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+
+        <!-- Inner -->
+        <div class="carousel-inner">
+            <!-- Single item -->
+            <div class="carousel-item active">
+                <img src="./images/slide_01.jpg" class="d-block w-100" alt="Sunset Over the City" />
+                <div class="carousel-caption">
+                    <h4 class="text-danger font-weight-bolder">Best Offer</h4>
+                    <h2>New Arrivals On Sale</h2>
+                </div>
+            </div>
+
+            <!-- Single item -->
+            <div class="carousel-item">
+                <img src="./images/slide_02.jpg" class="d-block w-100" alt="Canyon at Nigh" />
+                <div class="carousel-caption">
+                    <h4 class="text-danger font-weight-bolder">Flash Deals</h4>
+                    <h2>Get your best products</h2>
+                </div>
+            </div>
+
+            <!-- Single item -->
+            <div class="carousel-item">
+                <img src="./images/slide_03.jpg" class="d-block w-100" alt="Cliff Above a Stormy Sea" />
+                <div class="carousel-caption">
+                    <h4 class="text-danger font-weight-bolder">Last Minute</h4>
+                    <h2>Grab last minute deals</h2>
+                </div>
+            </div>
+        </div>
+        <!-- Inner -->
+    </div>
+    <!--End Carousel -->
+
+    <!-- start products section  -->
+    <div class="container products">
+        <div class="col-md-12 d-flex justify-content-between mb-3 product-title">
+            <h4 class="text-dark">Latest Products</h4>
+            <a href="">
+                <p class="text-danger font-weight-bolder">view all products <i
+                        class="fa-solid fa-arrow-right fa-bounce"></i></p>
+            </a>
+        </div>
+        <hr class="mb-5">
+        <div class="row">
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                        <img src="./images/product_01.jpg" class="img-fluid m-auto d-block" />
+                        <a href="#!">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                            <a class="card-title">Tittle goes here</a>
+                            <h5>$25.75</h5>
+                        </div>
+                        <p class="card-text">Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla
+                            aspernatur.</p>
+                        <div class="d-flex justify-content-between review">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <p>Reviews (24)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                        <img src="./images/product_02.jpg" class="img-fluid m-auto d-block" />
+                        <a href="#!">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                            <a class="card-title">Tittle goes here</a>
+                            <h5>$25.75</h5>
+                        </div>
+                        <p class="card-text">Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla
+                            aspernatur.</p>
+                        <div class="d-flex justify-content-between review">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <p>Reviews (24)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                        <img src="./images/product_03.jpg" class="img-fluid m-auto d-block" />
+                        <a href="#!">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                            <a class="card-title">Tittle goes here</a>
+                            <h5>$25.75</h5>
+                        </div>
+                        <p class="card-text">Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla
+                            aspernatur.</p>
+                        <div class="d-flex justify-content-between review">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <p>Reviews (24)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                        <img src="./images/product_04.jpg" class="img-fluid m-auto d-block" />
+                        <a href="#!">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                            <a class="card-title">Tittle goes here</a>
+                            <h5>$25.75</h5>
+                        </div>
+                        <p class="card-text">Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla
+                            aspernatur.</p>
+                        <div class="d-flex justify-content-between review">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <p>Reviews (24)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                        <img src="./images/product_05.jpg" class="img-fluid m-auto d-block" />
+                        <a href="#!">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                            <a class="card-title">Tittle goes here</a>
+                            <h5>$25.75</h5>
+                        </div>
+                        <p class="card-text">Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla
+                            aspernatur.</p>
+                        <div class="d-flex justify-content-between review">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <p>Reviews (24)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card">
+                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                        <img src="./images/product_06.jpg" class="img-fluid m-auto d-block" />
+                        <a href="#!">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                            <a class="card-title">Tittle goes here</a>
+                            <h5>$25.75</h5>
+                        </div>
+                        <p class="card-text">Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla
+                            aspernatur.</p>
+                        <div class="d-flex justify-content-between review">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <p>Reviews (24)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End products section  -->
+
+    <!-- start about section  -->
+    <div class="container about">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>About Sixteen Clothing</h2>
+                <hr class="mb-5">
+            </div>
+
+            <div class="col-md-6">
+                <h5 class="mb-3">Looking for the best products?</h5>
+                <h6 class="mb-4"><span><a href="">This template</a></span> is free to use for your business websites.
+                    However, you
+                    have no permission to
+                    redistribute the downloadable ZIP file on any template collection website. <span><a href="">Contact
+                            us</a></span> for more info.
+                </h6>
+                <p><a href="">Lorem ipsum dolor sit amet.</a></p>
+                <p><a href="">Consectetur an adipisicing elit</a></p>
+                <p><a href="">It aquecorporis nulla aspernatur</a></p>
+                <p><a href="">Corporis, omnis doloremque</a></p>
+                <p><a href="">Non cum id reprehenderit</a></p>
+                <button class="btn btn-danger my-3">read more</button>
+            </div>
+            <div class="col-md-6">
+                <img src="./images/feature-image.jpg" class="img-fluid mt-5" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- End about section  -->
+    <div class="container my-5">
+        <hr>
+    </div>
+    <!-- start unique section  -->
+    <div class="container unique">
+        <div class="row">
+            <div class="col-md-6">
+                <h5>Creative & Unique Sixteen Products</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque corporis amet elite author nulla.
+                </p>
+            </div>
+
+            <div class="col-md-6 mt-4 text-right unique-btn">
+                <button class="btn btn-danger ">purchase now</button>
+            </div>
+
+        </div>
+    </div>
+    <!-- End unique section  -->
+    <div class="container my-5">
+        <hr>
+    </div>
+
+    <!-- start copyright section  -->
+    <div class="container copyright text-center mb-5">
+        <p>COPYRIGHT © 2023 SIXTEEN CLOTHING CO., LTD. - DESIGN : <span><a class="text-danger"
+                    href="tel:+201210304516">sayed osama</a></span></p>
+    </div>
+    <!-- End copyright section  -->
+
+
+
+
+
+
+    <!-- mdb js  -->
+    <script src="./js/mdb.min.js"></script>
+    <!-- wow  -->
+    <script src="./js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <!-- fontawesome  -->
+    <script src="./js/font-awesome.js"></script>
+    <!-- jquery-js  -->
+    <script src="./js/jquery.js"></script>
+    <!-- popper-js  -->
+    <script src="./js/popper.js"></script>
+    <!-- bootstrab-js  -->
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+
+</html>
