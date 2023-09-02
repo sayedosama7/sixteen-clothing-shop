@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+
+.text-danger {
+    color: #f33f3f !important;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none !important;
+
+}
+
+/* End global  */
+
+/* start heading  */
+.about-heading {
+    background-image: url(../images/about-heading.jpg);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+}
+.heading {
+    background-image: url(../images/products-heading.jpg);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+}
+.heading div {
+    margin-top: 10%;
+}
+.heading div h5 {
+    letter-spacing: 2px;
+}
+.heading div h2 {
+    letter-spacing: 5px;
+    font-size: 60px;
+}
+@media (max-width:576px) {
+    .heading {
+        height: 250px;
+    }
+    .heading div h2 {
+        font-size: 25px;
+    }
+    .heading div {
+        margin-top: 20%;
+    }
+}
+/* End heading  */
+
+/* start all products  */
+.all-products {
+    margin: 100px auto 0px;
+}
+.all-products a {
+    color: black;
+    font-weight: 900;
+    margin-right: 20px;
+    transition: all .1s ease;
+    font-size: 12px;
+}
+.all-products .active {
+    color: #f33f3f;
+}
+.all-products a:hover {
+    color: #f33f3f;
+}
+@media (max-width:576px) {
+    .all-products {
+        margin: 30px auto 0px;
+    }
+    .all-products a {
+        font-weight: 600;
+        margin-right: 10px;
+
+        font-size: 10px;
+    }
+    .navbar-brand h2 {
+        font-size: 18px !important;
+    }
+}
+/* End all products  */
+
+/* start next section  */
+.next  {
+    margin-bottom: 50px;
+}
+.next a ,
+.next i
+{
+    transition: all .3s ease;
+    padding: 5px 15px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+    color: black;
+    font-weight: 900;
+    font-size: 13px;
+    cursor: pointer;
+}
+.next .active {
+    background-color: #f33f3f;
+    color: #fff !important;
+}
+.next a:hover 
+, .next i:hover
+{
+    background-color: #f33f3f;
+    color: #fff !important;
+}
+@media (max-width:576px) {
+    .next a ,
+.next i
+{
+    transition: all .3s ease;
+    padding: 2px 12px;
+    margin-left: 105x;
+    font-weight: 600;
+    font-size: 10px;
+}
+.next i {
+    padding-top: 5px !important;
+}
+}
+/* End next section  */
+
